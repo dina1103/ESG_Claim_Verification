@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "source_index": 336,
+    "category": "no_promise",
+    "url": "https://r.lvmh-static.com/uploads/2023/06/06-21_gb-_lvmh_rse2022.pdf",
+    "page_number": "20",
+    "data": "LVMH’s Executive Committee is made up of the Group’s operational and func-tional executives. Guided by the Board of Directors, the Executive Committeeestablishes strategic objectives and works with managers to achieve them,taking into account changes in the Group’s operating environment, responsi-bilities and commitments.",
+    "gold_labels": {
+      "promise_status": "No",
+      "verification_timeline": "N/A",
+      "evidence_status": "No",
+      "evidence_quality": "N/A"
+    }
+  },
+  {
+    "id": 2,
+    "source_index": 293,
+    "category": "no_promise",
+    "url": "https://canadanickel.com/wp-content/uploads/2023/10/09.07.2023_CNC-ESG-Report2023-web-1.pdf",
+    "page_number": "24",
+    "data": "Main Topics of Interest Identiﬁed through engagement around the Crawford Project Economic Opportunities/Jobs • Awareness of economic opportunities associated with local procurement, local employment (which is projected to reach beyond 900 individuals on site), expansion of regional industry and signiﬁcant economic development",
+    "gold_labels": {
+      "promise_status": "No",
+      "verification_timeline": "N/A",
+      "evidence_status": "No",
+      "evidence_quality": "N/A"
+    }
+  },
+  {
+    "id": 3,
+    "source_index": 305,
+    "category": "promise_no_evidence",
+    "url": "https://canadanickel.com/wp-content/uploads/2023/10/09.07.2023_CNC-ESG-Report2023-web-1.pdf",
+    "page_number": "41",
+    "data": "Risk Assessment Prior to conducting any activities that may have an impact on the environment, a risk assessment compliant with our Responsible Exploration Policy is conducted by our environmental team to determine: proximity of environmentally sensitive areas and water courses, potential environmental hazards, third party land use, accessibility, and species at risk. This information is shared with the exploration team to support safe and responsible program planning of drill locations, timing, and access.",
+    "gold_labels": {
+      "promise_status": "Yes",
+      "verification_timeline": "Already",
+      "evidence_status": "No",
+      "evidence_quality": "N/A"
+    }
+  },
+  {
+    "id": 4,
+    "source_index": 157,
+    "category": "promise_no_evidence",
+    "url": "https://ir.usbank.com/files/doc_financials/2022/ESG-Report-2022-Final_ADA.pdf",
+    "page_number": "34",
+    "data": "CAREER FAIRS, WORKSHOPS & CONFERENCES We ﬁnd value in both in-person and virtual career fairs, workshops and conferences. In partnership with our business lines, we attend local and national career fairs, workshops and conferences that reach multicultural audiences and qualiﬁed talent at all levels. Our recruiters build targeted, meaningful relationships with these and other organizations that expand outreach activity and demonstrate our commitment to equal opportunity, aﬃrmative action, non discrimination and excellence through diversity.",
+    "gold_labels": {
+      "promise_status": "Yes",
+      "verification_timeline": "Already",
+      "evidence_status": "No",
+      "evidence_quality": "N/A"
+    }
+  },
+  {
+    "id": 5,
+    "source_index": 83,
+    "category": "promise_clear_already",
+    "url": "https://www.burberryplc.com/content/dam/burberry/corporate/oar/2021/pdf/Burberry_2020-21_ESG.pdf",
+    "page_number": "19",
+    "data": "In addition, Progetto Quid goes beyond employability skills by addressing the welfare needs of highly vulnerable people. It provides the security of a stable environment and support in procuring official documentation, both fundamental to ensuring vulnerable individuals have an identity and a place within society. During FY 2020/21, 48 people benefited from employability programmes through engaging with the circular economy. Elvis & Kresse • 100% of beneficiaries* had an improved knowledge of leather manufacturing and the circular economy • 91% of apprentices entered employment in manufacturing, creative industries or the “Makers Movement” Progetto Quid • 100% of beneficiaries improved employability related skills, including communication and problem solving • 100% of beneficiaries improved their proficiency in the Italian language • 17% of beneficiaries obtained documentation to prolong their permits as legal residents and workers in Italy",
+    "gold_labels": {
+      "promise_status": "Yes",
+      "verification_timeline": "Already",
+      "evidence_status": "Yes",
+      "evidence_quality": "Clear"
+    }
+  },
+  {
+    "id": 6,
+    "source_index": 146,
+    "category": "promise_clear_already",
+    "url": "https://ir.usbank.com/files/doc_financials/2022/ESG-Report-2022-Final_ADA.pdf",
+    "page_number": "30",
+    "data": "Leadership development & career advancement We leverage our culture and our leadership support by giving employees regular access to immersive and inclusive development programs and career experiences. PEOPLE LEADER GOAL This goal is assigned to all people managers to help leaders inspire their team members to realize how to do their best work and help them to achieve a fulﬁlling career with us. Performance toward meeting this goal is assessed in the same way as other annual performance goals. All leaders must: • Be an inspiring leader and eﬀective coach who attracts, builds and develops diverse and high-performing teams • Proactively demonstrate selﬂess leadership that drives one U.S. Bank • Enable team members feel empowered and valued for their unique strengths and perspectives • Continuously engage with team members to give and receive feedback, develop skills and capabilities for their current role and enable their continued professional development",
+    "gold_labels": {
+      "promise_status": "Yes",
+      "verification_timeline": "Already",
+      "evidence_status": "Yes",
+      "evidence_quality": "Clear"
+    }
+  },
+  {
+    "id": 7,
+    "source_index": 264,
+    "category": "promise_not_clear",
+    "url": "https://www.greenergy.com/userfiles/media/greenergy/pdf%20uploads/esg-2022.pdf",
+    "page_number": "32",
+    "data": "Creating advanced biofuels from waste We seek to reduce the emissions from the fuel we supply whilst reducing the energy and resource requirements of our operations. Our priorities are: Since 2017, 100% of our biodiesel manufactured has come from waste Environment (E) Expand production and supply of waste-based biodiesel Wherever possible, we blend biofuels derived from wastes because they deliver the greatest carbon beneﬁt by having a lower land use impact than biofuels made from crops and not competing with food chains. In order to secure our own supply of waste-derived biofuels, we continue to invest in improving the eﬃciency and capacity of our own manufacturing capability, operating three production plants. This allows us to expand our supply of waste-based biofuel to meet rising renewable fuel obligations and to reduce the emissions associated with that production.",
+    "gold_labels": {
+      "promise_status": "Yes",
+      "verification_timeline": "More than 5 years",
+      "evidence_status": "Yes",
+      "evidence_quality": "Not Clear"
+    }
+  },
+  {
+    "id": 8,
+    "source_index": 69,
+    "category": "promise_not_clear",
+    "url": "https://www.baytexenergy.com/content/uploads/2023/07/2022-Baytex-ESG-Report-FINAL.pdf",
+    "page_number": "15",
+    "data": "DEVELOPMENT Minimizing impacts Reducing land disturbance is a priority in our development activities. We decrease the amount of land disturbance while increasing production by utilizing extended-reach horizontal drilling, building new multi-well pads, and expanding existing sites to accommodate multi-well operations. Our pipeline inspection and testing program is aimed at ensuring the integrity of existing pipelines to reduce the likelihood of spills. We also strive to repurpose existing pipeline infrastructure, when safe and feasible. As directed by provincial and federal regulators, or requested by private land owners or communities, we complete wildlife sweeps prior to site development, looking for any active wildlife in the area. If we ﬁnd active wildlife, steps are taken to ensure minimal impact including delaying work until wildlife have left the area or adjusting work plans to limit disturbance.",
+    "gold_labels": {
+      "promise_status": "Yes",
+      "verification_timeline": "Already",
+      "evidence_status": "Yes",
+      "evidence_quality": "Not Clear"
+    }
+  },
+  {
+    "id": 9,
+    "source_index": 45,
+    "category": "promise_clear_future",
+    "url": "https://www.standardbank.com/static_file/StandardBankGroup/filedownloads/RTS/2022/ESGReport2022.pdf",
+    "page_number": "30",
+    "data": "Reliability of digital transaction channels 2022 highlights We made structural and process changes in response to material system outages in the first half of 2022, enabling us to improve system stability and resilience. We experienced no material incidents in the second half of the year. No client impacting cyber incidents or cyber related losses were experienced in 2022. Our response and recovery times significantly improved in the second half of the year. We can successfully fail over (switch to a standby system) in the event of near misses, mitigating the risk of outages and impacts to the client. In South Africa, our customer NPS scores across all digital channels showed improvement in the second half of 2022. We improved our communications approach in the event of outages experienced, to ensure that we can effectively and timeously engage impacted customers. Group technology had positive engagements with the group board, regulators and investors, to ensure clear understanding of what caused the outages in early 2022, and what we have done to improve system resilience.",
+    "gold_labels": {
+      "promise_status": "Yes",
+      "verification_timeline": "Less than 2 years",
+      "evidence_status": "Yes",
+      "evidence_quality": "Clear"
+    }
+  },
+  {
+    "id": 10,
+    "source_index": 306,
+    "category": "promise_misleading",
+    "url": "https://canadanickel.com/wp-content/uploads/2023/10/09.07.2023_CNC-ESG-Report2023-web-1.pdf",
+    "page_number": "42",
+    "data": "Incident Reporting All environmental incidents, regardless of size, are reported to our Environmental team, who take immediate remedial action and conduct an investigation into cause, eﬀect, and corrective measures. Reports are periodically shared with the entire team (including executives and Board) and Indigenous communities, with a record of incidents published in our annual ESG report. For incidents requiring regulatory reporting or posing an immediate public safety risk, we have established a streamlined communication process that engages both internal and external stakeholders.",
+    "gold_labels": {
+      "promise_status": "Yes",
+      "verification_timeline": "Already",
+      "evidence_status": "Yes",
+      "evidence_quality": "Misleading"
+    }
+  }
+]
