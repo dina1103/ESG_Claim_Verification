@@ -1,0 +1,64 @@
+You are an expert in extracting structured ESG claim records from corporate sustainability reports. Read the paragraph below and extract every distinct claim that meets the definition of a claim. Output a JSON object with a single field "claims" containing a list of claim records. If no claims are found, return {"claims": []}.
+
+A claim is any statement related to Environmental, Social, or Governance (ESG) topics that fits one of these types:
+- target: a future goal with a specific year or timeframe (e.g., "we will reach net zero by 2050")
+- commitment: a stated intention or principle without a specific deadline (e.g., "we are committed to diversity")
+- achievement: a past or present accomplishment, possibly with quantified results (e.g., "we reduced emissions by 30% in 2023")
+- narrative: a description of an ongoing program, policy, or activity without a specific outcome stated (e.g., "we operate an anti-corruption training program")
+
+For each claim extracted, provide these 11 fields (use exact strings for categorical fields):
+
+1. claim_text — the verbatim or near-verbatim quote of the claim sentence(s) from the paragraph
+2. claim_type — one of: "target", "commitment", "achievement", "narrative"
+3. metric — the thing being measured (e.g., "GHG emissions", "water use", "anti-corruption training", "renewable electricity share"). Use "N/A" if no specific metric.
+4. quantified_value — a number if the claim contains a numeric value, otherwise null
+5. unit — the unit of the value (e.g., "%", "tCO2e", "m3", "employees"), or null if no value or unit not stated
+6. baseline_year — integer if the claim references a baseline year, otherwise null
+7. baseline_value — number if a baseline value is stated, otherwise null
+8. target_year — integer if the claim has a target year, otherwise null
+9. scope — one of: "Scope 1", "Scope 2", "Scope 3", "Scope 1+2", "Scope 1+2+3", "N/A"
+   Use Scope 1/2/3 only for GHG emissions claims, following the GHG Protocol.
+
+   PRIORITY: if the text explicitly names a scope (e.g., "Scope 1", "scope 1 and 2", "scope 3"), use that label directly. Apply the inference rules below ONLY when no scope is explicitly named.
+
+   Inference rules (used when scope is not stated):
+   - Scope 1: direct emissions from owned or controlled sources (e.g., company vehicles, on-site combustion, fuel use, "direct emissions")
+   - Scope 2: indirect emissions from purchased energy (e.g., purchased electricity, steam, heating, cooling)
+   - Scope 3: indirect emissions in the value chain (e.g., purchased goods and services, business travel, employee commuting, use of sold products, "supply chain emissions", "value chain emissions")
+   - "Scope 1+2": claim covers both Scope 1 and Scope 2 (e.g., "Scope 1 and 2 emissions reduced by X%")
+   - "Scope 1+2+3": claim covers all three (e.g., "total emissions across all scopes")
+
+   Use "N/A" when:
+   - The claim is not about GHG emissions (e.g., water use, anti-corruption training, recycled content)
+   - The text mentions emissions but doesn't specify the scope and the scope cannot be inferred from context
+
+10. geography — one of: "global", "country-specific", "site-specific", "N/A"
+11. framework_reference — one of: "GHG Protocol", "SBTi", "GRI", "TCFD", "CSRD", "ISSB", "UN SDG", "other", "none"
+
+CRITICAL RULES:
+- Extract every distinct claim. A paragraph may contain multiple claims.
+- Each claim's claim_text must be a coherent quoted span from the paragraph; don't paraphrase or invent text not in the source.
+- For numeric fields (quantified_value, baseline_year, baseline_value, target_year), use the JSON value null when the field doesn't apply, not the string "null" or "N/A".
+- For categorical fields (claim_type, scope, geography, framework_reference), use the exact strings listed above. Use "N/A" or "none" only as listed.
+- A vague aspiration without specific content (e.g., "we are committed to a sustainable future") is NOT a claim. Skip it.
+- A boilerplate disclaimer (e.g., "this report contains forward-looking statements") is NOT a claim. Skip it.
+- Output ONLY a valid JSON object. No explanations, no markdown.
+
+EXAMPLES:
+
+Paragraph: "Land Use• Recognizing existing or potential future recreational, traditional, cultural and other land uses occurring in proximity to exploration or development activities"
+Output: {"claims": []}
+
+Paragraph: "Climate Greenergy recognises the significant global challenge that climate change brings. We understand the role we play in reducing emissions and are committed to driving decarbonisation of transport. Environment (E) We are committed to: • Achieving net zero by 2050 (or sooner) • Carbon neutral operations by 2035 (50% reduction by 2030) • Avoiding 12mt CO2e by 2035 with our products (8mt by 2030)."
+Output: {"claims": [{"claim_text": "Achieving net zero by 2050 (or sooner)", "claim_type": "target", "metric": "GHG emissions", "quantified_value": null, "unit": null, "baseline_year": null, "baseline_value": null, "target_year": 2050, "scope": "N/A", "geography": "global", "framework_reference": "none"}, {"claim_text": "Carbon neutral operations by 2035 (50% reduction by 2030)", "claim_type": "target", "metric": "operational carbon emissions", "quantified_value": 50, "unit": "%", "baseline_year": null, "baseline_value": null, "target_year": 2030, "scope": "N/A", "geography": "global", "framework_reference": "none"}, {"claim_text": "Avoiding 12mt CO2e by 2035 with our products (8mt by 2030)", "claim_type": "target", "metric": "avoided GHG emissions", "quantified_value": 12000000, "unit": "tCO2e", "baseline_year": null, "baseline_value": null, "target_year": 2035, "scope": "Scope 3", "geography": "global", "framework_reference": "none"}]}
+
+Paragraph: "To date, in line with our Science Based Targets, we have reduced our scope 1 and 2 emissions by 84% compared to FY 2016/17 and reduced our scope 3 emissions from purchased goods and services by nearly 8,700 tonnes."
+Output: {"claims": [{"claim_text": "we have reduced our scope 1 and 2 emissions by 84% compared to FY 2016/17", "claim_type": "achievement", "metric": "GHG emissions", "quantified_value": 84, "unit": "%", "baseline_year": 2016, "baseline_value": null, "target_year": null, "scope": "Scope 1+2", "geography": "global", "framework_reference": "SBTi"}, {"claim_text": "reduced our scope 3 emissions from purchased goods and services by nearly 8,700 tonnes", "claim_type": "achievement", "metric": "GHG emissions (purchased goods and services)", "quantified_value": 8700, "unit": "tonnes", "baseline_year": null, "baseline_value": null, "target_year": null, "scope": "Scope 3", "geography": "global", "framework_reference": "SBTi"}]}
+
+Paragraph: "• Leather: We source 80% of our leather* from tanneries with environmental, traceability and social compliance certifications, with a target to extend this across 100% of our leather by 2022. In line with our support for the TCFD, we have assessed our leather supply chain and modelled the impact that climate change risks could have on our operations and supply chain across various temperature increase scenarios. For more information, please see our TCFD disclosures on pages 133 to 137."
+Output: {"claims": [{"claim_text": "We source 80% of our leather* from tanneries with environmental, traceability and social compliance certifications, with a target to extend this across 100% of our leather by 2022.", "claim_type": "target", "metric": "certified leather sourcing", "quantified_value": 100, "unit": "%", "baseline_year": null, "baseline_value": 80, "target_year": 2022, "scope": "N/A", "geography": "global", "framework_reference": "none"}, {"claim_text": "In line with our support for the TCFD, we have assessed our leather supply chain and modelled the impact that climate change risks could have on our operations and supply chain across various temperature increase scenarios.", "claim_type": "achievement", "metric": "TCFD-aligned climate risk assessment", "quantified_value": null, "unit": null, "baseline_year": null, "baseline_value": null, "target_year": null, "scope": "N/A", "geography": "global", "framework_reference": "TCFD"}]}
+
+Now extract claims from this paragraph:
+
+Paragraph: "{paragraph}"
+Output:
