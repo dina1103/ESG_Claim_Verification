@@ -13,7 +13,7 @@
     "raw_response": "{\n  \"claims\": []\n}",
     "parsed_claims": [],
     "parse_error": null,
-    "elapsed_seconds": 33.59860014915466
+    "elapsed_seconds": 244.7406485080719
   },
   {
     "block_id": "Bayerische Motoren Werke AG - 2024 - Annual Report (SustainabilityReports.com).pdf__p_0216",
@@ -26,10 +26,10 @@
     "n_sentences": 39,
     "n_esg_sentences": 1,
     "input_text": "254 BMWGroup Report 2024 To Our Stakeholders Combined Management Report Group Financial Statements Responsibility Statement and Auditor’s Report Remuneration Report Other Information Internal Control System, Risks and Opportunities, Compliance Financial risks and risks relating to the use of financial instruments Currencies As an internationally operating enterprise, the BMWGroup con- ducts business in a variety of currencies, thus giving rise to cur- rency risks and opportunities. A high portion of revenues, produc- tion, other purchases and funding occur outside the eurozone. The BMWGroup manages currency risks at both the strategic (medium to long term) and operational level (short to medium term). Over the medium and long term, it will be possible to ramp up production or the purchase volume in foreign currency regions (natural hedging). Currency risks are managed in the short to me- dium term and for operational purposes by means of hedging on financial markets, the primary objective of which is to improve planning reliability for the BMWGroup as a whole. Continually updated cash-flow-at-risk models are used to limit currency risks. Due to the relatively moderate volatility of exchange rates in the recent past, the level of risk has fallen slightly compared with the previous year and is now classified as moderate. Depending on exchange rate fluctuations, opportunities may also arise, which means they can be considered significant. Raw materials As a manufacturing company, the BMWGroup is subject to price risks, particularly in relation to the raw materials used in vehicle production. The analysis of raw materials price risks is based on planned pur- chases of raw materials and components containing those prod- ucts. A cash-flow-at-risk model is deployed to measure risks re- lating to raw materials prices. Price fluctuations for raw materials such as precious metals, non-ferrous metals, raw materials for batteries and steel, and also energy, are hedged using financial derivatives and supply contracts with fixed pricing arrangements. The prices of many raw materials continue to be subject to un- certainty on commodity markets. This entails a medium level of risk as well as significant opportunities. Liquidity The major part of the Financial Services segment’s credit financ- ing and leasing business is refinanced on capital markets. The liquidity concept, based on experience gained during various crises, is rigorously adhered to and continuously developed. In the Financial Services segment, the use of the “matched funding principle” ensures that liquidity risks are generally avoided. The solvency of the BMWGroup is assured at all times by adher- ing to liquidity ratios and using a broadly diversified range of re- financing sources. The liquidity position is monitored continuously and managed through the Group-wide planning of financial requirements and funding. Further information on risks in conjunction with financial instruments is provided in ↗ note [40] to the Group Financial State- ments. Other financial risks Other financial risks worth mentioning include counterparty risks as well as those arising in connection with investments in other entities. The BMWGroup works together with banks to ensure that the available liquidity is optimally invested in order to hedge against financial market risks (particularly currency, commodity and in- terest rate risks) using derivative financial instruments and to protect payments made in advance. Counterparty risk denotes the risk that the BMW Group will not receive, or not receive in full, the payments due to it in connection with the investment and hedging transactions referred to above. A value-at-risk model is employed to measure counterparty risk, taking into account the creditworthiness of the banks and the business volumes in- volved. Risk is managed using a limit system, which includes daily monitoring of the extent to which limits are being utilised at the level of the individual counterparties. The BMWGroup holds equity investments of varying amounts in numerous entities. The recoverability of these investments is monitored on an ongoing basis as part of a standardised pro- cess. The risk associated with other financial risks is classified as me- dium. Potential opportunities resulting from the revaluation of in- vestments are considered immaterial. Pension obligations Future pension obligations are financed largely via external pen- sion funds or trust constructs that are legally separate from the BMWGroup. Externally managed funds are invested on capital markets in a broadly diversified portfolio with a view to enabling future pension payments to be disbursed out of pension assets. These arrangements greatly reduce the need to fund pension payments out of ongoing operations. Fluctuations in pension provisions and the related pension assets give rise to risks that may have varying effects due to the differences in accounting standards between IFRS and HGB. The risk associated with pension provisions based on IFRS val- uations is categorised as medium. Material opportunities can arise if the value of pension assets on the capital markets devel- ops favourably or if pension provisions decreased at a more pro- nounced rate than the related assets. Pension obligations are chiefly measured by projecting future payouts, gauged with a current discount rate derived from mar- ket yields from top-rated corporate bonds. This discount rate is subject to market fluctuations and therefore influences the level of pension obligations in terms of present value. Changes in other parameters, such as inflation rates and life expectancy, also impact the amount as well as the duration of future pension payments. Regulatory requirements may also affect the amount of pension obligations.",
-    "raw_response": "{\n  \"claims\": [\n    {\n      \"claim_text\": \"A high portion of revenues, production, other purchases and funding occur outside the eurozone.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"country-specific\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"The BMWGroup manages currency risks at both the strategic (medium to long term) and operational level (short to medium term).\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Over the medium and long term, it will be possible to ramp up production or the purchase volume in foreign currency regions (natural hedging).\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Currency risks are managed in the short to medium term and for operational purposes by means of hedging on financial markets, the primary objective of which is to improve planning reliability for the BMWGroup as a whole.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Continually updated cash-flow-at-risk models are used to limit currency risks.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Due to the relatively moderate volatility of exchange rates in the recent past, the level of risk has fallen slightly compared with the previous year and is now classified as moderate.\",\n      \"claim_type\": \"achievement\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": 2023,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Depending on exchange rate fluctuations, opportunities may also arise, which means they can be considered significant.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"The analysis of raw materials price risks is based on planned purchases of raw materials and components containing those products.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"A cash-flow-at-risk model is deployed to measure risks relating to raw materials prices.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Price fluctuations for raw materials such as precious metals, non-ferrous metals, raw materials for batteries and steel, and also energy, are hedged using financial derivatives and supply contracts with fixed pricing arrangements.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"The prices of many raw materials continue to be subject to uncertainty on commodity markets.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"This entails a medium level of risk as well as significant opportunities.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"The liquidity concept, based on experience gained during various crises, is rigorously adhered to and continuously developed.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"In the Financial Services segment, the use of the “matched funding principle” ensures that liquidity risks are generally avoided.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"The solvency of the BMWGroup is assured at all times by adhering to liquidity ratios and using a broadly diversified range of refinancing sources.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"The liquidity position is monitored continuously and managed through the Group-wide planning of financial requirements and funding.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Further information on risks in conjunction with financial instruments is provided in ↗ note [40] to the Group Financial Statements.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Other financial risks worth mentioning include counterparty risks as well as those arising in connection with investments in other entities.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"The BMWGroup works together with banks to ensure that the available liquidity is optimally invested in order to hedge against financial market risks (particularly currency, commodity and interest rate risks) using derivative financial",
+    "raw_response": null,
     "parsed_claims": null,
-    "parse_error": "JSON decode error: Expecting ',' delimiter: line 236 column 6 (char 8128)",
-    "elapsed_seconds": 94.08545064926147
+    "parse_error": "LLM call failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=300)",
+    "elapsed_seconds": 302.06035351753235
   },
   {
     "block_id": "Mercedes-Benz Group AG - 2021 - Annual Report (SustainabilityReports.com).pdf__p_0104",
@@ -42,10 +42,10 @@
     "n_sentences": 23,
     "n_esg_sentences": 10,
     "input_text": "Annual Report 2021 · Mercedes-Benz Group Combined Management Report with Non-Financial Declaration 108 Raising awareness of occupational safety issues The Mercedes-Benz Group is increasingly using media such as videos, various information portals and online training courses in order to make its employees more aware of ergonomics and occupational safety issues. New employees are provided with initial instructions regarding the safety-relevant aspects of their work- places. After that, they are required to participate in safety-awareness briefings that are held on a regular basis. Results An extensive package of measures, which include safety and hygiene rules, testing strategies and offers of vacci- nation, have been implemented in an attempt to protect our employees as well as possible. In addition, we have helped to curb the spread of the pandemic. Some sites were unable to extend the voluntary ISO 45001 certificate due to the pandemic, among other reasons. For the protection of our workforce, the pres- ence of external persons at the production areas was limited to the minimum necessary for their operation. Irrespective of any external certification audits, about every five years, the safety standards at the Group- owned production facilities are reviewed to check whether they comply with those of our binding corpo- rate policy concerning occupational health and safety and whether a functioning occupational health and safety management system is in place. No routine Mercedes-Benz site audits were planned as part of our Safety Risk Management during the reporting year. As a result, there were no pandemic-related omissions that have to be made up for at a later date. The Mercedes- Benz Group utilises several accident documentation systems worldwide. These systems generate standard- ised statistics while taking applicable data protection regulations into account. This information is used as the basis for monthly reports of the Group’s accident statis- tics. Social issues Human beings can only overcome the major social and environmental challenges we face, such as climate change and increasing urbanisation, by working together. It is contributing its expertise to the social dialogue and is working on solutions together with representatives of governments, business and society. The Group wishes to take part in political and public opinion-shaping processes as a trustworthy and dependable discussion partner. The overarching goal of our approach is the long-term harmonisation of the Group’s interests with the interests of society at large. Responsible representation of our interests The Group has defined its own principles for political dialogue and the responsible communication of our interests. These are political restraint, balance and neu- trality in our dealings with political parties, members of parliament and government officials. Various instruments are used to ensure that the political representation of our interests is carried out in accord- ance with applicable regulations and ethical standards. In our work as a member of industry associations and in our cooperation with other companies, we pay particu- lar attention to antitrust regulations. Internally binding requirements have also been laid down in various docu- ments, including the Group’s Integrity Code. B.37 Target Target horizon Make lobbying activities verifiable and transparent on the basis of defined evaluation criteria 2022 \u0007Milestone: develop an evaluation concept to determine the current position 2021 \u0007Milestone: continue stakeholder interviews and derive necessary measures for future lobbying 2022",
-    "raw_response": "{\n  \"claims\": [\n    {\n      \"claim_text\": \"The Mercedes-Benz Group is increasingly using media such as videos, various information portals and online training courses in order to make its employees more aware of ergonomics and occupational safety issues.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"New employees are provided with initial instructions regarding the safety-relevant aspects of their work-places.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"After that, they are required to participate in safety-awareness briefings that are held on a regular basis.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Results An extensive package of measures, which include safety and hygiene rules, testing strategies and offers of vacci-nation, have been implemented in an attempt to protect our employees as well as possible.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"In addition, we have helped to curb the spread of the pandemic.\",\n      \"claim_type\": \"achievement\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Some sites were unable to extend the voluntary ISO 45001 certificate due to the pandemic, among other reasons.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"For the protection of our workforce, the presence of external persons at the production areas was limited to the minimum necessary for their operation.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Irrespective of any external certification audits, about every five years, the safety standards at the Group-owned production facilities are reviewed to check whether they comply with those of our binding corporate policy concerning occupational health and safety and whether a functioning occupational health and safety management system is in place.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"No routine Mercedes-Benz site audits were planned as part of our Safety Risk Management during the reporting year.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"As a result, there were no pandemic-related omissions that have to be made up for at a later date.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"The Mercedes-Benz Group utilises several accident documentation systems worldwide.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"These systems generate standard-ised statistics while taking applicable data protection regulations into account.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"This information is used as the basis for monthly reports of the Group’s accident statistics.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Social issues Human beings can only overcome the major social and environmental challenges we face, such as climate change and increasing urbanisation, by working together.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"It is contributing its expertise to the social dialogue and is working on solutions together with representatives of governments, business and society.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"The Group wishes to take part in political and public opinion-shaping processes as a trustworthy and dependable discussion partner.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"The overarching goal of our approach is the long-term harmonisation of the Group’s interests with the interests of society at large.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Responsible representation of our interests The Group has defined its own principles for political dialogue and the responsible communication of our interests.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"These are political restraint, balance and neu-trality in our dealings with political parties, members of parliament and government officials.\",\n",
+    "raw_response": null,
     "parsed_claims": null,
-    "parse_error": "JSON decode error: Expecting ',' delimiter: line 236 column 6 (char 8301)",
-    "elapsed_seconds": 105.93740582466125
+    "parse_error": "LLM call failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=300)",
+    "elapsed_seconds": 302.04716324806213
   },
   {
     "block_id": "Mercedes-Benz Group AG - 2020 - Annual Report (SustainabilityReports.com).pdf__p_0254",
@@ -61,7 +61,7 @@
     "raw_response": "{\"claims\": []}",
     "parsed_claims": [],
     "parse_error": null,
-    "elapsed_seconds": 23.945496797561646
+    "elapsed_seconds": 92.48692393302917
   },
   {
     "block_id": "Tesla Inc - 2020 - Impact Report (SustainabilityReports.com).pdf__p_0049",
@@ -156,7 +156,7 @@
       }
     ],
     "parse_error": null,
-    "elapsed_seconds": 32.036160945892334
+    "elapsed_seconds": 292.0756256580353
   },
   {
     "block_id": "Tesla Inc - 2023 - Annual Report (SustainabilityReports.com).pdf__p_0483",
@@ -172,7 +172,7 @@
     "raw_response": "{\"claims\": []}",
     "parsed_claims": [],
     "parse_error": null,
-    "elapsed_seconds": 8.145302772521973
+    "elapsed_seconds": 72.67535758018494
   },
   {
     "block_id": "Toyota Industries Corp - 2024 - Corporate Report (SustainabilityReports.com).pdf__p_0064",
@@ -185,154 +185,10 @@
     "n_sentences": 18,
     "n_esg_sentences": 13,
     "input_text": "Top Message Domestic Engine Certification Issue and Initiatives for Preventing Recurrence Value Creation Business Activities Promotion of ESGInitiatives Corporate and Financial Information Relationship with Our Stakeholders In cooperation with the environmental agency of the local government, TMHM-B, which engages in the sales and servicing of materials handling equipment, hosted an event for children to plant multiple plants in a flowerpot made by reusing plastic waste. The 50 children first created flowerpots by adding rabbit ears and faces to plastic containers and then planted their favorite flowers and herbs. In September 2023, TMHM-B conducted an environmental awareness lecture at school to spread awareness of the importance of protecting trees and forests, which was attended by 60 students and teachers. Activity Examples of Toyota Industries Group For more than 40 years, Cascade has been partnering with the Kay Service Center*2, an employment transition support facility, to help persons with disabilities to be themselves and live comfortably in the community with meaningful jobs. Together with Cascade employees, they engage in activities to support production. The experience of working and communicating with various people, both with and without disabilities, helps them grow further. In June 2023, Cascade made a donation under the Cascade Corporate Giving Program. *2: A facility supporting adults with disabilities to develop a maximum level of independence in the community TIEI promotes its Dream Project based on the belief that education forms the foundation for all people. While working with the local government, TIEI has created excellent educational infrastructure by rebuilding an old elementary school with digitalized “smart” classes and eco- friendly facilities. On November 29, 2023, community residents, teachers and students attended a ceremony to officially pass the new building over to the government’s educational agency. From fiscal 2025 onward, TIEI plans to support study sessions for teachers and initiatives for children’s growth (learning, sports and cultural activities) to improve the quality of education. TIEI intends to contribute to the comprehensive growth of children and the development of local communities together with local governments and community members. In fiscal 2024, 1,034 members of Toyota Industries and 11 Group companies in five countries donated blood. We cooperate with the Red Cross through blood and other donations and volunteer activities and by lending our products. Toyota Material Handling (TMH) worked jointly with the American Red Cross and supported their development through the completion of a new bloodmobile. The vehicle can accommodate four donors simultaneously, with an annual collection capacity of approximately 6 million ml of blood. It is designed with built-in measures to counter infectious diseases and is the first in the United States equipped with solar panels. n Status of Social Contribution Activities in Fiscal 2024 Ceremony to hand over the new school building Children showing off their original flowering pots New bloodmobile built with TMH’s support U.S.A. Partnership with an Employment Transition Support Facility Cascade Corporation (Cascade) Social welfare India Dream Project—Aiming for Community Development via Educational Support Toyota Industries Engine India Pvt. Ltd. (TIEI) Youth development Brazil Education to Raise Children’s Environmental Awareness Toyota Material Handling Mercosur Indústria e Comércio de Equipamentos Ltda (TMHM-B) Environmental protection Worldwide Blood Donation Community contribution Relationship with Our Local Communities 26,005 persons from 100 companies ¥1,001,345,000*3 Grand total 12,272 persons from 69 companies Total for major consolidated subsidiaries outside Japan Activity expenses: ¥323,754,000 6,769 persons from 1 company Total for Toyota Industries Corporation Activity expenses: ¥638,969,000 6,964 persons from 30 companies Total for major consolidated subsidiaries in Japan Activity expenses: ¥38,622,000 *3: \u0007On a consolidated basis including Toyota Industries Corporation and its major subsidiaries as of March 31, 2024 CSRMaterial Issue 63",
-    "raw_response": "{\n  \"claims\": [\n    {\n      \"claim_text\": \"In cooperation with the environmental agency of the local government, TMHM-B, which engages in the sales and servicing of materials handling equipment, hosted an event for children to plant multiple plants in a flowerpot made by reusing plastic waste.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"local\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"In September 2023, TMHM-B conducted an environmental awareness lecture at school to spread awareness of the importance of protecting trees and forests, which was attended by 60 students and teachers.\",\n      \"claim_type\": \"achievement\",\n      \"metric\": \"environmental awareness\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"local\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"For more than 40 years, Cascade has been partnering with the Kay Service Center*2, an employment transition support facility, to help persons with disabilities to be themselves and live comfortably in the community with meaningful jobs.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"local\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"In June 2023, Cascade made a donation under the Cascade Corporate Giving Program.\",\n      \"claim_type\": \"achievement\",\n      \"metric\": \"donation\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"local\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"TIEI promotes its Dream Project based on the belief that education forms the foundation for all people.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"local\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"From fiscal 2025 onward, TIEI plans to support study sessions for teachers and initiatives for children’s growth (learning, sports and cultural activities) to improve the quality of education.\",\n      \"claim_type\": \"target\",\n      \"metric\": \"education\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": 2025,\n      \"scope\": \"N/A\",\n      \"geography\": \"local\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"In fiscal 2024, 1,034 members of Toyota Industries and 11 Group companies in five countries donated blood.\",\n      \"claim_type\": \"achievement\",\n      \"metric\": \"blood donation\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"We cooperate with the Red Cross through blood and other donations and volunteer activities and by lending our products.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Toyota Material Handling (TMH) worked jointly with the American Red Cross and supported their development through the completion of a new bloodmobile.\",\n      \"claim_type\": \"achievement\",\n      \"metric\": \"bloodmobile development\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"The vehicle can accommodate four donors simultaneously, with an annual collection capacity of approximately 6 million ml of blood.\",\n      \"claim_type\": \"achievement\",\n      \"metric\": \"blood donation capacity\",\n      \"quantified_value\": 6000000,\n      \"unit\": \"ml\",\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"It is designed with built-in measures to counter infectious diseases and is the first in the United States equipped with solar panels.\",\n      \"claim_type\": \"achievement\",\n      \"metric\": \"bloodmobile design\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    }\n  ]\n}",
-    "parsed_claims": [
-      {
-        "claim_text": "In cooperation with the environmental agency of the local government, TMHM-B, which engages in the sales and servicing of materials handling equipment, hosted an event for children to plant multiple plants in a flowerpot made by reusing plastic waste.",
-        "claim_type": "narrative",
-        "metric": "N/A",
-        "quantified_value": null,
-        "unit": null,
-        "baseline_year": null,
-        "baseline_value": null,
-        "target_year": null,
-        "scope": "N/A",
-        "geography": "local",
-        "framework_reference": "none"
-      },
-      {
-        "claim_text": "In September 2023, TMHM-B conducted an environmental awareness lecture at school to spread awareness of the importance of protecting trees and forests, which was attended by 60 students and teachers.",
-        "claim_type": "achievement",
-        "metric": "environmental awareness",
-        "quantified_value": null,
-        "unit": null,
-        "baseline_year": null,
-        "baseline_value": null,
-        "target_year": null,
-        "scope": "N/A",
-        "geography": "local",
-        "framework_reference": "none"
-      },
-      {
-        "claim_text": "For more than 40 years, Cascade has been partnering with the Kay Service Center*2, an employment transition support facility, to help persons with disabilities to be themselves and live comfortably in the community with meaningful jobs.",
-        "claim_type": "narrative",
-        "metric": "N/A",
-        "quantified_value": null,
-        "unit": null,
-        "baseline_year": null,
-        "baseline_value": null,
-        "target_year": null,
-        "scope": "N/A",
-        "geography": "local",
-        "framework_reference": "none"
-      },
-      {
-        "claim_text": "In June 2023, Cascade made a donation under the Cascade Corporate Giving Program.",
-        "claim_type": "achievement",
-        "metric": "donation",
-        "quantified_value": null,
-        "unit": null,
-        "baseline_year": null,
-        "baseline_value": null,
-        "target_year": null,
-        "scope": "N/A",
-        "geography": "local",
-        "framework_reference": "none"
-      },
-      {
-        "claim_text": "TIEI promotes its Dream Project based on the belief that education forms the foundation for all people.",
-        "claim_type": "narrative",
-        "metric": "N/A",
-        "quantified_value": null,
-        "unit": null,
-        "baseline_year": null,
-        "baseline_value": null,
-        "target_year": null,
-        "scope": "N/A",
-        "geography": "local",
-        "framework_reference": "none"
-      },
-      {
-        "claim_text": "From fiscal 2025 onward, TIEI plans to support study sessions for teachers and initiatives for children’s growth (learning, sports and cultural activities) to improve the quality of education.",
-        "claim_type": "target",
-        "metric": "education",
-        "quantified_value": null,
-        "unit": null,
-        "baseline_year": null,
-        "baseline_value": null,
-        "target_year": 2025,
-        "scope": "N/A",
-        "geography": "local",
-        "framework_reference": "none"
-      },
-      {
-        "claim_text": "In fiscal 2024, 1,034 members of Toyota Industries and 11 Group companies in five countries donated blood.",
-        "claim_type": "achievement",
-        "metric": "blood donation",
-        "quantified_value": null,
-        "unit": null,
-        "baseline_year": null,
-        "baseline_value": null,
-        "target_year": null,
-        "scope": "N/A",
-        "geography": "global",
-        "framework_reference": "none"
-      },
-      {
-        "claim_text": "We cooperate with the Red Cross through blood and other donations and volunteer activities and by lending our products.",
-        "claim_type": "narrative",
-        "metric": "N/A",
-        "quantified_value": null,
-        "unit": null,
-        "baseline_year": null,
-        "baseline_value": null,
-        "target_year": null,
-        "scope": "N/A",
-        "geography": "global",
-        "framework_reference": "none"
-      },
-      {
-        "claim_text": "Toyota Material Handling (TMH) worked jointly with the American Red Cross and supported their development through the completion of a new bloodmobile.",
-        "claim_type": "achievement",
-        "metric": "bloodmobile development",
-        "quantified_value": null,
-        "unit": null,
-        "baseline_year": null,
-        "baseline_value": null,
-        "target_year": null,
-        "scope": "N/A",
-        "geography": "global",
-        "framework_reference": "none"
-      },
-      {
-        "claim_text": "The vehicle can accommodate four donors simultaneously, with an annual collection capacity of approximately 6 million ml of blood.",
-        "claim_type": "achievement",
-        "metric": "blood donation capacity",
-        "quantified_value": 6000000,
-        "unit": "ml",
-        "baseline_year": null,
-        "baseline_value": null,
-        "target_year": null,
-        "scope": "N/A",
-        "geography": "global",
-        "framework_reference": "none"
-      },
-      {
-        "claim_text": "It is designed with built-in measures to counter infectious diseases and is the first in the United States equipped with solar panels.",
-        "claim_type": "achievement",
-        "metric": "bloodmobile design",
-        "quantified_value": null,
-        "unit": null,
-        "baseline_year": null,
-        "baseline_value": null,
-        "target_year": null,
-        "scope": "N/A",
-        "geography": "global",
-        "framework_reference": "none"
-      }
-    ],
-    "parse_error": null,
-    "elapsed_seconds": 61.92289710044861
+    "raw_response": null,
+    "parsed_claims": null,
+    "parse_error": "LLM call failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=300)",
+    "elapsed_seconds": 302.09341764450073
   },
   {
     "block_id": "Toyota Industries Corp - 2022 - Corporate Report (SustainabilityReports.com).pdf__p_0037",
@@ -348,7 +204,7 @@
     "raw_response": "{\"claims\": []}",
     "parsed_claims": [],
     "parse_error": null,
-    "elapsed_seconds": 27.816948413848877
+    "elapsed_seconds": 326.12482595443726
   },
   {
     "block_id": "Volkswagen AG - 2024 - Annual Report (SustainabilityReports.com).pdf__p_0657",
@@ -364,7 +220,7 @@
     "raw_response": "{\"claims\": []}",
     "parsed_claims": [],
     "parse_error": null,
-    "elapsed_seconds": 7.963100910186768
+    "elapsed_seconds": 20.49715280532837
   },
   {
     "block_id": "Volkswagen AG - 2022 - Sustainability Report (SustainabilityReports.com).pdf__p_0075",
@@ -377,9 +233,335 @@
     "n_sentences": 28,
     "n_esg_sentences": 8,
     "input_text": "The regular communication with managers on the measures de­ rived and their implementation status takes place using a top-down approach, beginning with the respective division manager/Board member and proceeding to the lowest management level. The aim is to ensure the implementation of the measures derived from the organizational units in a lasting manner. Of the 614,142 employees in the companies surveyed, 475,778 participated. The employee satisfac­ tion index, which is calculated from 22 questions, is the principal indicator of the Opinion Survey. It is calculated from the total of all the related answers in the survey and, in 2022, stood at 82.4 out of a possible total of 100 index points in the Volkswagen Group (2021: 82.3 index points) and at 76.2 index points in Volkswagen AG (2021: 76.2 index points). The result of the employee satisfaction index influences the level of the annual bonus as part of the vari­ able remuneration for the Board of Management. In 2022, the score on the employee satisfaction index in the Volkswagen Group was 82.4 out of 100 possible index points and thus slightly above the score in the previous year. Successfully Contributing Their Own Ideas Through their creativity, knowledge and initiative, employees take on responsibility for improving processes and products and ulti­ mately help us to achieve our sustainability goals. In 2022, 13,953 ideas were submitted as part of idea management, and savings of around €38 million were achieved at Volkswagen AG’s sites. In addition, Volkswagen AG supports the development of business ideas fit for the future with its own separate innovation fund. The associated “intrapreneurship” program offers employees the oppor­ tunity to implement their own business ideas at Volkswagen and ­expand the existing portfolio of services and products. It consists of an incubator phase for developing a business plan and an accel­ erator phase for constructing prototypes and customer tests. Under an agreement between IGMetall and Volkswagen AG, the Group makes €20 million available to the fund each year for projects in new areas of business. 2. INITIATIVESINTHETEAMS@VOLKSWAGENDIMENSION High-performance teams in the Volkswagen Group are groups that trust each other, have a common goal and can rely on each other, yet also discuss matters critically and speak their minds. As our transformation takes shape, the way in which teams in the Volkswagen Group collaborate is fundamentally changing. Hybrid digital forms of collaboration are becoming more important. They require modern office environments that simplify collaborative, flexible work. The same applies to opportunities for digital collabo­ ration – an aspect that the Covid-19 pandemic has reinforced. Transition to Hybrid Work Formats Hybrid working – a combination of remote working and working on-site – gives employees greater flexibility in terms of when and where they work and is increasingly becoming the norm for the Volkswagen Group. In the reporting period, we again refined and ex­ panded virtual and hybrid communication and collaboration, as well as new formats of knowledge transfer and training. Major topics in­ cluded: • Drafting and expanding the company agreements on remote working at AUDIAG and Volkswagen AG • Maintaining mental health and strengthening the management culture and culture of trust (Culture and Change Factory) in light of the changing world of work In addition, we continued developing the Guide for Digital and ­Hybrid Collaboration, which is intended to provide guidance on successful communication and organization for employees, managers and teams. We also continued working on the Office 2025 initiative, which is to be used to advance the modernization of the office and working environment within Volkswagen AG. Office 2025 pursues a holistic perspective and takes the categories of people, space and technology into consideration. In addition we promote the mod­ ernization of digital infrastructure, opportunities for collaboration and social spaces within Volkswagen AG’s production areas through the modernization fund, which distributes an average of €25 million per year at the request of the plants and departments. The size of the fund is €125 million over a term of five years. The flexibility that new forms of working bring has a positive im­ pact on work/life balance. Information on strategies, measures and programs on this topic is summarized in the chapter on the focus topic of diversity. Diversity 81 PEOPLE IN THE TRANSFORMATION Table of Contents The Group’s DNA | Decarbonization | Circular Economy | People in the Transformation | Diversity | Integrity | Supply Chain and Human Rights",
-    "raw_response": "{\n  \"claims\": [\n    {\n      \"claim_text\": \"Successfully Contributing Their Own Ideas Through their creativity, knowledge and initiative, employees take on responsibility for improving processes and products and ultimately help us to achieve our sustainability goals.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"In 2022, 13,953 ideas were submitted as part of idea management, and savings of around €38 million were achieved at Volkswagen AG’s sites.\",\n      \"claim_type\": \"achievement\",\n      \"metric\": \"employee-generated innovation\",\n      \"quantified_value\": 13953,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"In addition, Volkswagen AG supports the development of business ideas fit for the future with its own separate innovation fund.\",\n      \"claim_type\": \"commitment\",\n      \"metric\": \"innovation funding\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"The associated “intrapreneurship” program offers employees the opportunity to implement their own business ideas at Volkswagen and expand the existing portfolio of services and products.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"It consists of an incubator phase for developing a business plan and an accelerator phase for constructing prototypes and customer tests.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Under an agreement between IGMetall and Volkswagen AG, the Group makes €20 million available to the fund each year for projects in new areas of business.\",\n      \"claim_type\": \"commitment\",\n      \"metric\": \"innovation funding\",\n      \"quantified_value\": 20000000,\n      \"unit\": \"€\",\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"High-performance teams in the Volkswagen Group are groups that trust each other, have a common goal and can rely on each other, yet also discuss matters critically and speak their minds.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"As our transformation takes shape, the way in which teams in the Volkswagen Group collaborate is fundamentally changing.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Hybrid digital forms of collaboration are becoming more important.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"They require modern office environments that simplify collaborative, flexible work.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"The same applies to opportunities for digital collaboration – an aspect that the Covid-19 pandemic has reinforced.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Transition to Hybrid Work Formats Hybrid working – a combination of remote working and working on-site – gives employees greater flexibility in terms of when and where they work and is increasingly becoming the norm for the Volkswagen Group.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"In the reporting period, we again refined and expanded virtual and hybrid communication and collaboration, as well as new formats of knowledge transfer and training.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Major topics included: • Drafting and expanding the company agreements on remote working at AUDIAG and Volkswagen AG • Maintaining mental health and strengthening the management culture and culture of trust (Culture and Change Factory) in light of the changing world of work\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"In addition, we continued developing the Guide for Digital and Hybrid Collaboration, which is intended to provide guidance on successful communication and organization for employees, managers and teams.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"We also continued working on the Office 2025 initiative, which is to be used to advance the modernization of the office and working environment within Volkswagen AG.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Office 2025 pursues a holistic perspective and takes the categories of people, space and technology into consideration.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"In addition we promote the modernization of digital infrastructure, opportunities for collaboration and social spaces within Volkswagen AG’s production areas through the modernization fund, which distributes an average of €25 million per year at the request of the plants and departments.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value",
-    "parsed_claims": null,
-    "parse_error": "JSON decode error: Expecting ',' delimiter: line 223 column 6 (char 8183)",
-    "elapsed_seconds": 94.4347357749939
+    "raw_response": "{\n  \"claims\": [\n    {\n      \"claim_text\": \"Successfully Contributing Their Own Ideas Through their creativity, knowledge and initiative, employees take on responsibility for improving processes and products and ultimately help us to achieve our sustainability goals.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"In 2022, 13,953 ideas were submitted as part of idea management, and savings of around €38 million were achieved at Volkswagen AG’s sites.\",\n      \"claim_type\": \"achievement\",\n      \"metric\": \"employee-generated innovation\",\n      \"quantified_value\": 13953,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"The employee satisfaction index, which is calculated from 22 questions, is the principal indicator of the Opinion Survey.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"It is calculated from the total of all the related answers in the survey and, in 2022, stood at 82.4 out of a possible total of 100 index points in the Volkswagen Group (2021: 82.3 index points) and at 76.2 index points in Volkswagen AG (2021: 76.2 index points).\",\n      \"claim_type\": \"achievement\",\n      \"metric\": \"employee satisfaction index\",\n      \"quantified_value\": 82.4,\n      \"unit\": \"%\",\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"The result of the employee satisfaction index influences the level of the annual bonus as part of the variable remuneration for the Board of Management.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"In 2022, the score on the employee satisfaction index in the Volkswagen Group was 82.4 out of 100 possible index points and thus slightly above the score in the previous year.\",\n      \"claim_type\": \"achievement\",\n      \"metric\": \"employee satisfaction index\",\n      \"quantified_value\": 82.4,\n      \"unit\": \"%\",\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"In addition, Volkswagen AG supports the development of business ideas fit for the future with its own separate innovation fund.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"The associated “intrapreneurship” program offers employees the opportunity to implement their own business ideas at Volkswagen and expand the existing portfolio of services and products.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"It consists of an incubator phase for developing a business plan and an accelerator phase for constructing prototypes and customer tests.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Under an agreement between IGMetall and Volkswagen AG, the Group makes €20 million available to the fund each year for projects in new areas of business.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"High-performance teams in the Volkswagen Group are groups that trust each other, have a common goal and can rely on each other, yet also discuss matters critically and speak their minds.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"As our transformation takes shape, the way in which teams in the Volkswagen Group collaborate is fundamentally changing.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Hybrid digital forms of collaboration are becoming more important.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"They require modern office environments that simplify collaborative, flexible work.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"The same applies to opportunities for digital collaboration – an aspect that the Covid-19 pandemic has reinforced.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Transition to Hybrid Work Formats Hybrid working – a combination of remote working and working on-site – gives employees greater flexibility in terms of when and where they work and is increasingly becoming the norm for the Volkswagen Group.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"In the reporting period, we again refined and expanded virtual and hybrid communication and collaboration, as well as new formats of knowledge transfer and training.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Major topics included: • Drafting and expanding the company agreements on remote working at AUDIAG and Volkswagen AG • Maintaining mental health and strengthening the management culture and culture of trust (Culture and Change Factory) in light of the changing world of work\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"In addition, we continued developing the Guide for Digital and Hybrid Collaboration, which is intended to provide guidance on successful communication and organization for employees, managers and teams.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"We also continued working on the Office 2025 initiative, which is to be used to advance the modernization of the office and working environment within Volkswagen AG.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Office 2025 pursues a holistic perspective and takes the categories of people, space and technology into consideration.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"In addition we promote the modernization of digital infrastructure, opportunities for collaboration and social spaces within Volkswagen AG’s production areas through the modernization fund, which distributes an average of €25 million per year at the request of the plants and departments.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"The size of the fund is €125 million over a term of five years.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"The flexibility that new forms of working bring has a positive impact on work/life balance.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    },\n    {\n      \"claim_text\": \"Information on strategies, measures and programs on this topic is summarized in the chapter on the focus topic of diversity.\",\n      \"claim_type\": \"narrative\",\n      \"metric\": \"N/A\",\n      \"quantified_value\": null,\n      \"unit\": null,\n      \"baseline_year\": null,\n      \"baseline_value\": null,\n      \"target_year\": null,\n      \"scope\": \"N/A\",\n      \"geography\": \"global\",\n      \"framework_reference\": \"none\"\n    }\n  ]\n}",
+    "parsed_claims": [
+      {
+        "claim_text": "Successfully Contributing Their Own Ideas Through their creativity, knowledge and initiative, employees take on responsibility for improving processes and products and ultimately help us to achieve our sustainability goals.",
+        "claim_type": "narrative",
+        "metric": "N/A",
+        "quantified_value": null,
+        "unit": null,
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "In 2022, 13,953 ideas were submitted as part of idea management, and savings of around €38 million were achieved at Volkswagen AG’s sites.",
+        "claim_type": "achievement",
+        "metric": "employee-generated innovation",
+        "quantified_value": 13953,
+        "unit": null,
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "The employee satisfaction index, which is calculated from 22 questions, is the principal indicator of the Opinion Survey.",
+        "claim_type": "narrative",
+        "metric": "N/A",
+        "quantified_value": null,
+        "unit": null,
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "It is calculated from the total of all the related answers in the survey and, in 2022, stood at 82.4 out of a possible total of 100 index points in the Volkswagen Group (2021: 82.3 index points) and at 76.2 index points in Volkswagen AG (2021: 76.2 index points).",
+        "claim_type": "achievement",
+        "metric": "employee satisfaction index",
+        "quantified_value": 82.4,
+        "unit": "%",
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "The result of the employee satisfaction index influences the level of the annual bonus as part of the variable remuneration for the Board of Management.",
+        "claim_type": "narrative",
+        "metric": "N/A",
+        "quantified_value": null,
+        "unit": null,
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "In 2022, the score on the employee satisfaction index in the Volkswagen Group was 82.4 out of 100 possible index points and thus slightly above the score in the previous year.",
+        "claim_type": "achievement",
+        "metric": "employee satisfaction index",
+        "quantified_value": 82.4,
+        "unit": "%",
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "In addition, Volkswagen AG supports the development of business ideas fit for the future with its own separate innovation fund.",
+        "claim_type": "narrative",
+        "metric": "N/A",
+        "quantified_value": null,
+        "unit": null,
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "The associated “intrapreneurship” program offers employees the opportunity to implement their own business ideas at Volkswagen and expand the existing portfolio of services and products.",
+        "claim_type": "narrative",
+        "metric": "N/A",
+        "quantified_value": null,
+        "unit": null,
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "It consists of an incubator phase for developing a business plan and an accelerator phase for constructing prototypes and customer tests.",
+        "claim_type": "narrative",
+        "metric": "N/A",
+        "quantified_value": null,
+        "unit": null,
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "Under an agreement between IGMetall and Volkswagen AG, the Group makes €20 million available to the fund each year for projects in new areas of business.",
+        "claim_type": "narrative",
+        "metric": "N/A",
+        "quantified_value": null,
+        "unit": null,
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "High-performance teams in the Volkswagen Group are groups that trust each other, have a common goal and can rely on each other, yet also discuss matters critically and speak their minds.",
+        "claim_type": "narrative",
+        "metric": "N/A",
+        "quantified_value": null,
+        "unit": null,
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "As our transformation takes shape, the way in which teams in the Volkswagen Group collaborate is fundamentally changing.",
+        "claim_type": "narrative",
+        "metric": "N/A",
+        "quantified_value": null,
+        "unit": null,
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "Hybrid digital forms of collaboration are becoming more important.",
+        "claim_type": "narrative",
+        "metric": "N/A",
+        "quantified_value": null,
+        "unit": null,
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "They require modern office environments that simplify collaborative, flexible work.",
+        "claim_type": "narrative",
+        "metric": "N/A",
+        "quantified_value": null,
+        "unit": null,
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "The same applies to opportunities for digital collaboration – an aspect that the Covid-19 pandemic has reinforced.",
+        "claim_type": "narrative",
+        "metric": "N/A",
+        "quantified_value": null,
+        "unit": null,
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "Transition to Hybrid Work Formats Hybrid working – a combination of remote working and working on-site – gives employees greater flexibility in terms of when and where they work and is increasingly becoming the norm for the Volkswagen Group.",
+        "claim_type": "narrative",
+        "metric": "N/A",
+        "quantified_value": null,
+        "unit": null,
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "In the reporting period, we again refined and expanded virtual and hybrid communication and collaboration, as well as new formats of knowledge transfer and training.",
+        "claim_type": "narrative",
+        "metric": "N/A",
+        "quantified_value": null,
+        "unit": null,
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "Major topics included: • Drafting and expanding the company agreements on remote working at AUDIAG and Volkswagen AG • Maintaining mental health and strengthening the management culture and culture of trust (Culture and Change Factory) in light of the changing world of work",
+        "claim_type": "narrative",
+        "metric": "N/A",
+        "quantified_value": null,
+        "unit": null,
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "In addition, we continued developing the Guide for Digital and Hybrid Collaboration, which is intended to provide guidance on successful communication and organization for employees, managers and teams.",
+        "claim_type": "narrative",
+        "metric": "N/A",
+        "quantified_value": null,
+        "unit": null,
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "We also continued working on the Office 2025 initiative, which is to be used to advance the modernization of the office and working environment within Volkswagen AG.",
+        "claim_type": "narrative",
+        "metric": "N/A",
+        "quantified_value": null,
+        "unit": null,
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "Office 2025 pursues a holistic perspective and takes the categories of people, space and technology into consideration.",
+        "claim_type": "narrative",
+        "metric": "N/A",
+        "quantified_value": null,
+        "unit": null,
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "In addition we promote the modernization of digital infrastructure, opportunities for collaboration and social spaces within Volkswagen AG’s production areas through the modernization fund, which distributes an average of €25 million per year at the request of the plants and departments.",
+        "claim_type": "narrative",
+        "metric": "N/A",
+        "quantified_value": null,
+        "unit": null,
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "The size of the fund is €125 million over a term of five years.",
+        "claim_type": "narrative",
+        "metric": "N/A",
+        "quantified_value": null,
+        "unit": null,
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "The flexibility that new forms of working bring has a positive impact on work/life balance.",
+        "claim_type": "narrative",
+        "metric": "N/A",
+        "quantified_value": null,
+        "unit": null,
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      },
+      {
+        "claim_text": "Information on strategies, measures and programs on this topic is summarized in the chapter on the focus topic of diversity.",
+        "claim_type": "narrative",
+        "metric": "N/A",
+        "quantified_value": null,
+        "unit": null,
+        "baseline_year": null,
+        "baseline_value": null,
+        "target_year": null,
+        "scope": "N/A",
+        "geography": "global",
+        "framework_reference": "none"
+      }
+    ],
+    "parse_error": null,
+    "elapsed_seconds": 201.0860002040863
   }
 ]

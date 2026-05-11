@@ -59,7 +59,7 @@ def call_llm(prompt_template, paragraph_text):
             "stream": False,
             "options": {
                 "temperature": 0.0,
-                "num_predict": 2048,    # larger output for multi-claim
+                "num_predict": 4096,    # larger output for multi-claim
             },
         },
         timeout=300,
@@ -123,7 +123,7 @@ def main():
         print(f"    [{row['company_name']:30s} {row['year']}] {len(row['text']):>6} chars | block_id: {row['block_id'][:70]}")
 
     # run LLM on each
-    print(f"\nRunning LLM on each paragraph (this will take 5-15 minutes)...\n")
+    print(f"\nRunning LLM on each paragraph...\n")
     results = []
     parse_failures = 0
 
