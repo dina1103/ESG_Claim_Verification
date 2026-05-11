@@ -6,10 +6,13 @@ import requests
 import pandas as pd
 from pathlib import Path
 
-INPUT_PARQUET = r"C:\Users\dina_\Desktop\esg_verification_draft\data\processed\llm_paragraphs"
-PROMPT_FILE   = r"C:\Users\dina_\Desktop\esg_verification_draft\src\ingestion\llm_extraction_prompt.txt"
-OUTPUT_FILE   = r"C:\Users\dina_\Desktop\esg_verification_draft\data\processed\llm_extraction_test_results"
 
+
+BASE_DIR = Path(__file__).resolve().parents[2]
+
+INPUT_PARQUET = BASE_DIR / "data" / "processed" / "llm_paragraphs"
+PROMPT_FILE   = BASE_DIR / "src" / "ingestion" / "llm_extraction_prompt.txt"
+OUTPUT_FILE   = BASE_DIR / "data" / "processed" / "llm_extraction_test_results"
 OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL = "llama3.1:8b"
 SEED = 42
