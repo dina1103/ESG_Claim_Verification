@@ -15,8 +15,10 @@ OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL = "llama3.1:8b"
 
 # print progress every N paragraphs
-PROGRESS_EVERY = 25
+PROGRESS_EVERY = 1
 
+# smoke test: limit run to N paragraphs (set to None for full corpus)
+MAX_PARAGRAPHS = 5
 
 def call_llm(prompt_template, paragraph_text):
     # substitute paragraph into the prompt
@@ -134,6 +136,12 @@ def main():
 
     # filter to paragraphs not yet processed
     remaining = df[~df["block_id"].isin(processed_ids)].reset_index(drop=True)
+
+    # smoke test limiter
+    if MAX_PARAGRAPHS is not None:
+        remaining = remaining.head(MAX_PARAGRAPHS)
+        print(f"  SMOKE TEST: limited to {MAX_PARAGRAPHS} paragraphs")
+
     print(f"  remaining to process: {len(remaining):,} paragraphs")
 
     if len(remaining) == 0:
