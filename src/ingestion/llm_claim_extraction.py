@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 INPUT_PARQUET = r"C:\Users\dell\ESG_Claim_Verification\data\processed\llm_paragraphs"
 PROMPT_FILE   = r"C:\Users\dell\ESG_Claim_Verification\src\ingestion\llm_extraction_prompt.txt"
 OUTPUT_JSONL  = r"C:\Users\dell\ESG_Claim_Verification\data\processed\llm_claim_extraction_result.jsonl"
-SUMMARY_FILE  = r"C:\Users\dell\ESG_Claim_Verification\data\processed\llm_claim_extractionsummary.json"
+SUMMARY_FILE  = r"C:\Users\dell\ESG_Claim_Verification\data\processed\llm_claim_extraction_summary.json"
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL = "llama3.1:8b"
