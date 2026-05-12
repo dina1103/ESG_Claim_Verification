@@ -42,12 +42,12 @@ CRITICAL RULES:
 - For categorical fields (claim_type, scope, geography, framework_reference), use the exact strings listed above. Use "N/A" or "none" only as listed.
 - A vague aspiration without specific content (e.g., "we are committed to a sustainable future") is NOT a claim. Skip it.
 - A boilerplate disclaimer (e.g., "this report contains forward-looking statements") is NOT a claim. Skip it.
-- Descriptions of how the company manages internal processes, organizational structures, financial operations, or routine business functions are NOT ESG claims. Only extract claims that make a specific ESG-related promise, target, achievement, or describe a SPECIFIC named ESG program or initiative.
+- SKIP these as NOT claims: organizational structure ("X reports to Y"); internal processes ("audits are reviewed quarterly"); business/financial operations (risk management, accounting). Only extract statements that make a clear ESG promise, commitment, achievement, or describe a named ESG program.
 - Output ONLY a valid JSON object. No explanations, no markdown.
 
 EXAMPLES:
 
-Paragraph: "LVMH’s Executive Committee is made up of the Group’s operational and func-tional executives. Guided by the Board of Directors, the Executive Committeeestablishes strategic objectives and works with managers to achieve them,taking into account changes in the Group’s operating environment, responsi-bilities and commitments."
+Paragraph: "LVMH's Executive Committee is made up of the Group's operational and functional executives. Guided by the Board of Directors, the Executive Committee establishes strategic objectives and works with managers to achieve them, taking into account changes in the Group's operating environment, responsibilities and commitments."
 Output: {"claims": []}
 
 Paragraph: "Climate Greenergy recognises the significant global challenge that climate change brings. We understand the role we play in reducing emissions and are committed to driving decarbonisation of transport. Environment (E) We are committed to: • Achieving net zero by 2050 (or sooner) • Carbon neutral operations by 2035 (50% reduction by 2030) • Avoiding 12mt CO2e by 2035 with our products (8mt by 2030)."
