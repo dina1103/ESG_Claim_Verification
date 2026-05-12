@@ -14,10 +14,10 @@ OUTPUT_FILE   = BASE_DIR / "data" / "processed" / "llm_extraction_test_results"
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL = "llama3.1:8b"
-SEED = 99
+SEED = 42
 
 
-def pick_stratified_paragraphs(df, seed=99):
+def pick_stratified_paragraphs(df, seed=42):
     # for each company, pick 1 shorter (25-50th percentile) and 1 longer (75-90th percentile) paragraph
     random.seed(seed)
     picked = []
