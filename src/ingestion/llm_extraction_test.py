@@ -67,6 +67,8 @@ def call_llm(prompt_template, paragraph_text):
 
 def parse_llm_response(raw_text):
     # try to extract a valid JSON object from the LLM response
+    # repair_status: None on clean parse, "repaired_from_truncation" if recovered,
+    # or an error string if unrecoverable
     text = raw_text.strip()
 
     # strip markdown code fences if present
@@ -77,20 +79,29 @@ def parse_llm_response(raw_text):
     try:
         parsed = json.loads(text)
         return parsed, None
-    except json.JSONDecodeError:
-        pass
+    except json.JSONDecodeError as e:
+        original_error = str(e)
 
-    # fallback: try to extract first {...} block (greedy match for nested braces)
+    # fallback 1: try to extract first {...} block (greedy match for nested braces)
     match = re.search(r"\{.*\}", text, re.DOTALL)
     if match:
         try:
             parsed = json.loads(match.group(0))
             return parsed, None
-        except json.JSONDecodeError as e:
-            return None, f"JSON decode error: {e}"
+        except json.JSONDecodeError:
+            pass
 
-    return None, "No JSON object found in response"
+    # fallback 2: repair truncated output by finding last complete claim and closing json
+    last_complete = text.rfind("},")
+    if last_complete != -1:
+        repaired = text[:last_complete + 1] + "]}"
+        try:
+            parsed = json.loads(repaired)
+            return parsed, "repaired_from_truncation"
+        except json.JSONDecodeError:
+            pass
 
+    return None, f"JSON decode error: {original_error}"
 
 def main():
     # load prompt template
@@ -152,16 +163,23 @@ def main():
             })
             continue
 
-        parsed, parse_error = parse_llm_response(raw)
+        parsed, repair_status = parse_llm_response(raw)
 
-        if parse_error:
-            print(f"PARSE FAIL ({elapsed:.0f}s): {parse_error}")
-            parse_failures += 1
-            parsed_claims = None
-        else:
+        # treat clean parse and successful repair as success; everything else is a failure
+        if parsed is not None:
             claims = parsed.get("claims", []) if isinstance(parsed, dict) else []
             parsed_claims = claims
-            print(f"OK ({elapsed:.0f}s) — {len(claims)} claim(s) extracted")
+            if repair_status == "repaired_from_truncation":
+                print(f"OK-REPAIRED ({elapsed:.0f}s) — {len(claims)} claim(s) recovered from truncation")
+                parse_error = None
+            else:
+                print(f"OK ({elapsed:.0f}s) — {len(claims)} claim(s) extracted")
+                parse_error = None
+        else:
+            print(f"PARSE FAIL ({elapsed:.0f}s): {repair_status}")
+            parse_failures += 1
+            parsed_claims = None
+            parse_error = repair_status
 
         results.append({
             "block_id": row["block_id"],
@@ -177,6 +195,7 @@ def main():
             "raw_response": raw,
             "parsed_claims": parsed_claims,
             "parse_error": parse_error,
+            "repair_status": repair_status,
             "elapsed_seconds": elapsed,
         })
 
@@ -193,13 +212,16 @@ def main():
     parsed_ok = sum(1 for r in results if r["parsed_claims"] is not None)
     total_claims = sum(len(r["parsed_claims"]) if r["parsed_claims"] else 0 for r in results)
     total_time = sum(r["elapsed_seconds"] for r in results)
+    n_repaired = sum(1 for r in results if r.get("repair_status") == "repaired_from_truncation")
     print(f"Successful parses:  {parsed_ok}/{n}")
+    print(f"  of which repaired: {n_repaired}")
     print(f"Parse failures:     {parse_failures}/{n}")
     print(f"Total claims:       {total_claims}")
     print(f"Avg claims/block:   {total_claims/parsed_ok:.1f}" if parsed_ok else "  (no successful parses)")
     print(f"Total time:         {total_time:.0f}s")
     print(f"Avg time/paragraph: {total_time/n:.1f}s")
     print(f"\nResults saved to: {OUTPUT_FILE}")
+    
 
 
 if __name__ == "__main__":
