@@ -134,14 +134,14 @@ def main():
     else:
         print(f"\nNo checkpoint found — starting fresh")
 
-    # filter to paragraphs not yet processed
-    remaining = df[~df["block_id"].isin(processed_ids)].reset_index(drop=True)
-
-    # smoke test limiter
+    # smoke test: cap the total target to first MAX_PARAGRAPHS of the corpus
     if MAX_PARAGRAPHS is not None:
-        remaining = remaining.head(MAX_PARAGRAPHS)
-        print(f"  SMOKE TEST: limited to {MAX_PARAGRAPHS} paragraphs")
+        target_df = df.head(MAX_PARAGRAPHS)
+        print(f"  SMOKE TEST: total target capped at {MAX_PARAGRAPHS} paragraphs")
+    else:
+        target_df = df
 
+    remaining = target_df[~target_df["block_id"].isin(processed_ids)].reset_index(drop=True)
     print(f"  remaining to process: {len(remaining):,} paragraphs")
 
     if len(remaining) == 0:
