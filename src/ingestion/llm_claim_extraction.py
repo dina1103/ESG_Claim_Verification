@@ -1,3 +1,4 @@
+import argparse
 import json
 import re
 import time
@@ -6,10 +7,10 @@ import pandas as pd
 from pathlib import Path
 from datetime import datetime, timedelta
 
-INPUT_PARQUET = r"C:\Users\dell\ESG_Claim_Verification\data\processed\llm_paragraphs"
-PROMPT_FILE   = r"C:\Users\dell\ESG_Claim_Verification\src\ingestion\llm_extraction_prompt.txt"
-OUTPUT_JSONL  = r"C:\Users\dell\ESG_Claim_Verification\data\processed\llm_claim_extraction_result.jsonl"
-SUMMARY_FILE  = r"C:\Users\dell\ESG_Claim_Verification\data\processed\llm_claim_extraction_summary.json"
+INPUT_PARQUET = r"C:\Users\dina_\Desktop\esg_verification_draft\data\processed\llm_paragraphs"
+PROMPT_FILE   = r"C:\Users\dina_\Desktop\esg_verification_draft\src\ingestion\llm_extraction_prompt.txt"
+OUTPUT_JSONL  = r"C:\Users\dina_\Desktop\esg_verification_draft\data\processed\llm_claim_extraction_result.jsonl"
+SUMMARY_FILE  = r"C:\Users\dina_\Desktop\esg_verification_draft\data\processed\llm_claim_extraction_summary.json"
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL = "llama3.1:8b"
@@ -19,6 +20,10 @@ PROGRESS_EVERY = 25
 
 # test: limit run to N paragraphs (set to None for full corpus)
 MAX_PARAGRAPHS = None
+
+# process at most this many *unprocessed* paragraphs per invocation (set to None for no cap).
+# overridable via --batch-size on the CLI. checkpointing means the next run resumes automatically.
+BATCH_SIZE = None
 
 def call_llm(prompt_template, paragraph_text):
     # substitute paragraph into the prompt
@@ -105,7 +110,7 @@ def format_eta(seconds):
     return str(timedelta(seconds=int(seconds)))
 
 
-def main():
+def main(batch_size=None):
     # load prompt template
     print(f"Loading prompt from {PROMPT_FILE}...")
     with open(PROMPT_FILE, "r", encoding="utf-8") as f:
@@ -147,6 +152,13 @@ def main():
     if len(remaining) == 0:
         print("\nAll paragraphs already processed. Nothing to do.")
         return
+
+    # cap this run to a batch — the next invocation will pick up via the checkpoint
+    effective_batch = batch_size if batch_size is not None else BATCH_SIZE
+    if effective_batch is not None and effective_batch < len(remaining):
+        remaining = remaining.head(effective_batch).reset_index(drop=True)
+        print(f"  batch cap: processing {len(remaining):,} this run "
+              f"(rerun the script to continue)")
 
     # run LLM on each remaining paragraph
     print(f"\nRunning LLM on each paragraph (appending to {OUTPUT_JSONL})...\n")
@@ -266,4 +278,13 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Run LLM claim extraction over paragraphs.")
+    parser.add_argument(
+        "--batch-size",
+        type=int,
+        default=None,
+        help="Process at most this many unprocessed paragraphs per run. "
+             "Overrides BATCH_SIZE constant. Omit for no cap.",
+    )
+    args = parser.parse_args()
+    main(batch_size=args.batch_size)

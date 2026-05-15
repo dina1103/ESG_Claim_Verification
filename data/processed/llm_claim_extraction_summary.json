@@ -1,0 +1,13 @@
+{
+  "run_completed_at": "2026-05-15T15:30:30.567526",
+  "n_processed_this_run": 270,
+  "n_parsed_ok": 255,
+  "n_repaired": 35,
+  "n_failed": 15,
+  "n_llm_errors": 0,
+  "total_claims_this_run": 1891,
+  "run_elapsed_seconds": 9254.659393310547,
+  "avg_seconds_per_paragraph": 34.27651627152054,
+  "total_corpus_size": 6420,
+  "total_processed_overall": 1420
+}

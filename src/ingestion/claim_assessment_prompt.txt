@@ -1,0 +1,74 @@
+You are an expert in assessing the quality of ESG (Environmental, Social, Governance) claims from corporate sustainability reports. Given a claim and its source paragraph, evaluate the claim across 7 quality dimensions plus an overall confidence rating. Output a JSON object with exactly these 8 fields. Use the exact string values listed for each field.
+
+DIMENSIONS TO ASSESS:
+
+1. specificity — Does the claim name a specific target, metric, program, or quantity?
+   - "high": claim names a specific metric AND quantified value OR a named program with specific scope
+   - "medium": claim names a specific metric or named program but lacks quantification or precise scope
+   - "low": vague aspiration with no specific metric, value, or named program
+
+2. time_boundedness — Does the claim have a deadline or specific timeframe?
+   - "bounded": specific year, date, or timeframe stated (e.g., "by 2030", "since 2015")
+   - "ongoing": continuous program or commitment with no defined endpoint
+   - "unbounded": no temporal reference of any kind
+
+3. measurability — Can the claim's content be measured?
+   - "quantified": contains a specific number with unit (%, tonnes, count, ratio)
+   - "qualitative_measurable": no number but the outcome could in principle be verified (e.g., "implemented program X")
+   - "not_measurable": purely abstract or aspirational, no measurable outcome
+
+4. verifiability — Can a third party verify this claim against evidence?
+   - "externally_verifiable": claim references external standards (SBTi, GRI, TCFD, ISO, NRDC, etc.) or third-party partners that provide independent verification
+   - "internally_verifiable": claim is checkable but only against the company's own internal data
+   - "not_verifiable": no specific facts that could be checked against any data source
+
+5. status — Is the claim about a past event, ongoing program, or future target?
+   - "past_achievement": describes something already completed or achieved
+   - "ongoing_program": describes an active, continuous program or practice
+   - "future_target": describes a goal to be achieved in the future
+
+6. scope_clarity — Does the claim clearly define what is covered (geographic, operational, segment scope)?
+   - "clear": specific geographic regions, operational segments, or scope categories named (Scope 1/2/3, named regions, named business units)
+   - "partial": some scope information provided but incomplete (e.g., region named but operations not specified)
+   - "vague": no scope information, or only vague references ("our operations", "globally")
+
+7. conditionality — Is the claim conditional, unconditional, or aspirational?
+   - "unconditional": firm commitment without dependencies on external factors (hedging language like "aim to" is still unconditional unless explicit conditions are stated)
+   - "conditional": explicit conditions stated ("subject to regulatory frameworks", "provided that technology becomes available", "where commercially feasible")
+   - "aspirational": values or beliefs stated rather than actions or commitments ("we believe in", "we are committed to a sustainable future")
+
+8. assessment_confidence — How confident are you in this overall assessment?
+   - "high": the claim and paragraph provide enough context for a clear assessment across all dimensions
+   - "medium": some dimensions are ambiguous or borderline
+   - "low": the claim is unclear or the paragraph context conflicts with the claim text
+
+CRITICAL RULES:
+- Output ONLY a valid JSON object with exactly these 8 fields. No explanations, no markdown.
+- For each field, use ONLY the exact string values listed above. Do not invent new values.
+- Use the paragraph context to resolve ambiguity (e.g., if the claim text alone is vague but the paragraph provides scope or timeframe, use that information).
+- Hedging language ("aim to", "plan to", "strive to") is NOT conditionality unless explicit external conditions are stated.
+- A claim can be "quantified" in measurability even if the quantified value is in the paragraph rather than the claim text itself.
+
+EXAMPLES:
+
+CLAIM: "The Clean by Design program has since been implemented at 41 of our historical and strategic Tier 1 and 2 suppliers located in Italy across dyeing, printing and finishing mills, spinning and weaving mills, denim laundries, in 3 wool washing mills and 3 silk reeling mills in China, and 8 in Japan."
+PARAGRAPH: "Clean by design Collaborating with our suppliers and industry peers to reduce Luxury and fashion's manufacturing footprint can lead to greater results. So, when the Natural Resources Defense Council came up with an initiative to reduce impacts around energy and water use in textile mills, we immediately signed up. Starting in 2015, the Clean by Design program has since been implemented at 41 of our historical and strategic Tier 1 and 2 suppliers located in Italy across dyeing, printing and finishing mills, spinning and weaving mills, denim laundries, in 3 wool washing mills and 3 silk reeling mills in China, and 8 in Japan. Some great results followed: averaging 19% in energy savings per site, mainly in the −10% to −20% range with peaks of −40%, and showing a return on investment for participating suppliers in less than 2.5 years in Italy and less than one year in China based on the program's efficiency actions. In 2021, we extended the Clean by Design in Italy with the Apparel Impact Institute, in partnership with Stella McCartney, Burberry and the NGO Legambiente."
+OUTPUT: {"specificity": "high", "time_boundedness": "bounded", "measurability": "quantified", "verifiability": "externally_verifiable", "status": "past_achievement", "scope_clarity": "clear", "conditionality": "unconditional", "assessment_confidence": "high"}
+
+CLAIM: "We monitor our impacts and provide transparent disclosures to our stakeholders."
+PARAGRAPH: "We monitor our impacts and provide transparent disclosures to our stakeholders."
+OUTPUT: {"specificity": "low", "time_boundedness": "unbounded", "measurability": "not_measurable", "verifiability": "not_verifiable", "status": "ongoing_program", "scope_clarity": "vague", "conditionality": "aspirational", "assessment_confidence": "high"}
+
+CLAIM: "Baytex is implementing site designs that minimize routine venting sources for our Peavine Clearwater and Duvernay regions."
+PARAGRAPH: "ACTIVITIES In 2022, we executed our first dedicated GHG budget, investing $7 million in GHG mitigation and strategic gas conservation activities. Increased focus on methane Given the high impact of methane on global warming, Baytex focuses on reducing emissions from methane in our operations. In 2022, we: Committed to minimizing routine venting Baytex is implementing site designs that minimize routine venting sources for our Peavine Clearwater and Duvernay regions. Routine venting is the intentional release into the atmosphere of gases from the oil and gas production process. Using technologies such as instrument air and tank top recovery in our operations will help us minimize routine venting, reducing our greenhouse gas emissions and helping us achieve our 2025 intensity reduction goal."
+OUTPUT: {"specificity": "medium", "time_boundedness": "bounded", "measurability": "qualitative_measurable", "verifiability": "internally_verifiable", "status": "ongoing_program", "scope_clarity": "clear", "conditionality": "unconditional", "assessment_confidence": "medium"}
+
+CLAIM: "We aim to be Net-Zero by 2040 and achieve carbon neutrality in our own operational energy use by 2022."
+PARAGRAPH: "A Net-Zero future We are proud of our climate change initiatives, which are continually evolving as we find new ways to address the challenges posed by the climate emergency. We aim to be Net-Zero by 2040 and achieve carbon neutrality in our own operational energy use by 2022. We are on track to achieve this by reducing absolute emissions, improving energy efficiency and switching to renewable electricity sources, before offsetting any remaining emissions. All our events, including shows and presentations, have been certified carbon neutral since 2019. We have reduced our market-based emissions by 92% since 2016."
+OUTPUT: {"specificity": "high", "time_boundedness": "bounded", "measurability": "quantified", "verifiability": "externally_verifiable", "status": "future_target", "scope_clarity": "clear", "conditionality": "unconditional", "assessment_confidence": "high"}
+
+Now assess this claim:
+
+CLAIM: "{claim_text}"
+PARAGRAPH: "{paragraph}"
+OUTPUT:
